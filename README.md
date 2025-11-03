@@ -5,6 +5,7 @@
 
 ![COBOL](https://img.shields.io/badge/COBOL-85_&_74-blue?logo=ibm)
 ![Platform](https://img.shields.io/badge/Platform-GNUCOBOL_%26_TK4--%2F_Hercules-green)
+
 ![Running in TK4-](screenshot.png)
 
 A minimal, file-driven text adventure engine written in **COBOL-85** (GNUCOBOL) and **COBOL-74** (OS/360 MVT on TK4-). The same source runs identically on both platforms — only compilation differs.
@@ -94,7 +95,7 @@ cd forest
 
 2. The engine reads `ROOMS` and `OBJECTS` as fixed-length sequential files.
 
-3. Use the included **CLIST** for pseudo-interactive play in **READY mode**:
+3. Use the included **CLIST** for interactive play in **READY mode**:
 
 ```clist
 /* USER.RUN.CLIST(RUNADV) */
@@ -144,7 +145,7 @@ Run in MVS READY mode:
 ```
 
 > All files are **flat, ASCII-encoded, and contain no line feeds**.
-![enter image description here](C:%5CUsers%5Cmanyo%5Ccobol%5Cgnucobol%5Cadventure%5Cscreenshot.png)
+
 ---
 
 ## 🛠️ Editing Stories
@@ -171,4 +172,5 @@ Public domain. Written in the spirit of retro computing and COBOL preservation.
 
 — manny juan
 ```
+
 
