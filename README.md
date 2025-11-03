@@ -79,7 +79,7 @@ Each adventure is self-contained in its folder with `rooms.dat` and `objects.dat
 ```bash
 cobc -x advent.cob
 cd forest
-../advent.exe
+..\advent.exe
 ```
 
 
@@ -88,8 +88,8 @@ cd forest
 1. **Transfer data files using IND$FILE** from your PC to TK4-:  
    - In the IND$FILE transfer dialog, set **File Type = `FIXED`**  
    - Specify the **exact record length**:  
-     - `forest\rooms.txt` → `'USER.FOREST,ROOMS.DAT'` **(FIXED 128)**  
-     - `forest\objects.txt` → `'USER.FOREST,OBJECTS.DAT'` **(FIXED 128)**  
+     - `forest\rooms.txt` → `'USER.FOREST.ROOMS.DAT'` **(FIXED 128)**  
+     - `forest\objects.txt` → `'USER.FOREST.OBJECTS.DAT'` **(FIXED 128)**  
    > 💡 Do this **once per dataset** — the LRECL is stored in the catalog.
 
 2. The engine reads `ROOMS` and `OBJECTS` as fixed-length sequential files.
@@ -171,3 +171,4 @@ Public domain. Written in the spirit of retro computing and COBOL preservation.
 
 — manny juan
 ```
+
