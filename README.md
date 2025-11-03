@@ -99,7 +99,6 @@ cd forest
 
 ```clist
 /* USER.RUN.CLIST(RUNADV) */
-PROC 1
 PROC 1 GAME                                               
 ALLOC FILE(ROOMS) DA('USER.&GAME..ROOMS.DAT') SHR       
 ALLOC FILE(OBJECTS) DA('USER.&GAME..OBJECTS.DAT') SHR   
@@ -172,5 +171,6 @@ Public domain. Written in the spirit of retro computing and COBOL preservation.
 
 — manny juan
 ```
+
 
 
