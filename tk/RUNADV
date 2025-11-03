@@ -1,0 +1,8 @@
+ /* HERC02.RUN.CLIST(RUNADV) */
+PROC 1 GAME                                               
+ALLOC FILE(ROOMS) DA('HERC02.&GAME..ROOMS.DAT') SHR       
+ALLOC FILE(OBJECTS) DA('HERC02.&GAME..OBJECTS.DAT') SHR   
+ALLOC FILE(SYSOUT) DA(*)                                  
+ALLOC FILE(SYSIN) DA(*)                                   
+CALL 'HERC02.RUN.LOAD(ADVENT)'                            
+            

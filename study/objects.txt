@@ -1,0 +1,3 @@
+INKWELL   02YNN          02NA cracked inkwell.                      You dip the quill in ink. Ready to write
+QUILL     01YNNINKWELL   04YA raven-feather quill.                  You write in the journal. YOU WIN!
+JOURNAL   04NNN          00NAn ancient ghostly journal.

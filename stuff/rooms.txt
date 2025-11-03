@@ -1,0 +1,5 @@
+        TITLE               The Forest Adventure               
+02030000Forest Clearing     You are in a quiet clearing. Paths lead north and east.
+00000001Dark Cave           It is damp and echoing. A light shines south.
+04000100River Bank          A fast river blocks your way east. A bridge lies north.
+00000003Old Bridge          The bridge creaks underfoot. A key lies here.

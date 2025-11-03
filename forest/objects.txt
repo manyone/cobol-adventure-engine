@@ -1,0 +1,3 @@
+KEY       04YNNLAMP      02YA small brass key.                      You unlock the chest. Inside is a note: YOU WIN! 
+CHEST     02NNN          00NA wooden chest is here.
+LAMP      01YNN          00NA rusty lamp.                           You light the lamp.
